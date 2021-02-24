@@ -13,7 +13,7 @@ An simple, useful stock watcher windows deskband.
 
 1、必须安装 .NET framework 4.0，默认 Win7 操作系统以上已经安装，无需安装。
 
-2、下载 [https://github.com/mrhuo/StockWatcher/release](https://github.com/mrhuo/StockWatcher/release) 下的软件。
+2、下载 [https://github.com/mrhuo/StockWatcher/app](https://github.com/mrhuo/StockWatcher/app) 下的软件。
 
 3、在软件保存目录用 **管理员权限** 打开 `cmd.exe`。
 
