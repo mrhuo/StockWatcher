@@ -23,5 +23,12 @@ namespace StockWatcher
         }
 
         protected override Control Control => _control;
+
+        protected override void DeskbandOnClosed()
+        {
+            _control.Dispose();
+            _control = null;
+            base.DeskbandOnClosed();
+        }
     }
 }
