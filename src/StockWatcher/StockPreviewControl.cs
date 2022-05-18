@@ -164,6 +164,7 @@ namespace StockWatcher
                     Timeout = TimeSpan.FromSeconds(5),
                 })
                 {
+                    client.DefaultRequestHeaders.Add("Referer", "http://finance.sina.com.cn");
                     return await client.GetStringAsync(api);
                 }
             }
